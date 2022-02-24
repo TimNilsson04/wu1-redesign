@@ -1,3 +1,6 @@
+html,body{margin:0;}
+
+
 /* https://piccalil.li/blog/a-modern-css-reset/ */
 /* Box sizing rules */
 *,
@@ -308,7 +311,7 @@ h3 {
   align-items: center;
   padding: 1.333rem 1rem;
   justify-content: left;
-  flex-wrap: wrap;
+
 }
 @media (max-width: 48rem) {
   .navbar__inner {
@@ -409,5 +412,30 @@ a:hover {
 .menu {
    display: flex;
    background-color: #EBF94A;
-   width: 15%;
+   width: 100%;
+   text-align: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
+.img {
+width: 20%;
+}
+.text{
+  text-align: center;
+  font-size: 3rem;
+}
+@media (max-width: 46rem) {
+.menu{
+  min-width: 100%;
+  margin-right: 0%;
+  margin-left: 0%;
+
+}
+}
+.flowers{
+    background-color: #EBF94A;
+  size: 100%;
+
+}
+
